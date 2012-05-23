@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="EloquentJSBook_0DBB515F">
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="EloquentJS_1593272821">
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
   <dc:title>Eloquent JavaScript</dc:title>
   <dc:language>en-us</dc:language>
   <meta name="cover" content="EJS_Cover" />
-  <dc:identifier id="EloquentJSBook_0dBB515F">978-1593272821</dc:identifier>
+  <dc:identifier id="EloquentJS_1593272821">978-1593272821</dc:identifier>
   <dc:creator>Marijn Haverbeke</dc:creator>
   <dc:publisher>Sam Whited</dc:publisher>
   <dc:subject>Reference</dc:subject>
@@ -15,6 +15,7 @@
 </metadata>
 
 <manifest>
+  <item id="title" media-type="application/xhtml+xml" href="index.html"></item>
   <item id="toc" media-type="application/xhtml+xml" href="contents.html"></item>
   <item id="errata" media-type="application/xhtml+xml" href="errata.html"></item>
   <item id="c1" media-type="application/xhtml+xml" href="chapter1.html"></item>
@@ -31,19 +32,16 @@
   <item id="c12" media-type="application/xhtml+xml" href="chapter12.html"></item>
   <item id="c13" media-type="application/xhtml+xml" href="chapter13.html"></item>
   <item id="c14" media-type="application/xhtml+xml" href="chapter14.html"></item>
-  <item id="c15" media-type="application/xhtml+xml" href="chapter15.html"></item>
   <item id="a01" media-type="application/xhtml+xml" href="appendix1.html"></item>
   <item id="a02" media-type="application/xhtml+xml" href="appendix2.html"></item>
   <item id="ind" media-type="application/xhtml+xml" href="terms.html"></item>
-
-<!-- <item id="fig1" media-type= "image/gif" href="Figure1.gif"></item> -->
-<!-- <item id="" media-type="text/css" href="codemirror.css"></item> -->
 
   <item id="EJS_NCX" media-type="application/x-dtbncx+xml" href="ejs.ncx"></item>
   <item id="EJS_Cover" media-type="image/png" href="img/ejs.png"></item>
 </manifest>
 
 <spine toc="EJS_NCX">
+  <itemref idref="title"/>
   <itemref idref="toc"/>
   <itemref idref="errata"/>
   <itemref idref="c1"/>
@@ -60,7 +58,9 @@
   <itemref idref="c12"/>
   <itemref idref="c13"/>
   <itemref idref="c14"/>
-  <itemref idref="c15"/>
+  <itemref idref="a01"/>
+  <itemref idref="a02"/>
+  <itemref idref="ind"/>
 </spine>
 
 <guide>
