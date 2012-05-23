@@ -4,16 +4,13 @@ body {
 
 div.content {
   font-family: tahoma, arial, sans-serif;
-  padding: 3em 5em;
-  padding-right: 4em;
+  padding: 3em 0.1em;
   max-width: 850px;
-  color: #222;
   line-height: 150%;
 }
 
 h1 {
   font-size: 200%;
-  margin-left: -1em;
   margin-bottom: 1.4em;
   page-break-before: left;
 }
@@ -70,7 +67,7 @@ div.solutionarrow {
 
 code {
   font-family: courier new, courier, monospace;
-  color: #033;
+  color: #0AA;
 }
 
 p {
